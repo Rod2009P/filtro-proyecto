@@ -1,0 +1,24 @@
+body
+{
+    background-size:cover;
+}
+h3
+{
+    font-size: 50px !important;
+}
+.btn-succes:hover
+{
+    background-color: green;
+    color: black;
+}
+canvas
+{
+    animation-name: one;
+    animation-duration: 5s;
+    animation-iteration-count:infinite;
+}
+
+@keyframes one {
+    from{ box-shadow:15px 15px 15px blue; }
+    to{ box-shadow: 15px 15px 15px blueviolet; }
+}
